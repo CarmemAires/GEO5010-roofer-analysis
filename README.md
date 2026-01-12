@@ -1,4 +1,4 @@
-# GEO5010 Roofer São Paulo Analysis
+# GEO5010 Roofer Analysis 
 
 This repository contains a set of Python scripts to process LiDAR ```LAZ``` tiles into 3D CityJSON models using **Roofer** (https://github.com/3DBAG/roofer), analyze their quality, and optionally optimize Roofer parameters for improved reconstruction. These scripts were created in the framework of GEO5010 - Research Orientation of the MSc Geomatics program of TU Delft with the objective of testing the Roofer algorithm within global south contexts, such as São Paulo.
 
@@ -80,9 +80,9 @@ This repository contains a set of Python scripts to process LiDAR ```LAZ``` tile
 ## Requirements
 
 1. Python >= 3.9
-2. Dependencies:
+2. Dependencies: use ```src/requirements.txt``` to install the dependencies,
         ```          
-        geopandas, pandas, numpy, shapely, fiona, pyproj, rtree, tqdm, matplotlib, seaborn, requests, optuna
+        geopandas, pandas, numpy, shapely, tqdm, matplotlib, seaborn, requests, optuna
         ```
 3. External Tools:
     - Roofer executable accessible ```(ROOFER_EXE)```
