@@ -96,7 +96,7 @@ This repository contains a set of Python scripts to process LiDAR ```LAZ``` tile
 ## Recommended Workflow
 
 1. Download the tile index in https://portal.opentopography.org/lidarDataset?opentopoID=OTLAS.062020.31983.1. 
-Add your typologies in a ```Typology``` field in the tile index dataset. ```Typology``` allows you to analyze results grouped by building type. Tip: If your dataset has many tiles of the same type, you can assign the same typology to all of them (e.g., "Residential"), so Roofer and analysis scripts will group them automatically.
+Add your typologies in a ```Typology``` field in the tile index dataset. ```Typology``` allows you to analyze results grouped by building type. Tip: If your dataset has many tiles of the same type, you can assign the same typology to all of them (e.g. "Residential"), so Roofer and analysis scripts will group them automatically.
     - Create a column called Typology in your tile index  ```.GPKG``` (e.g. "BR17_SaoPaulo_TileIndex.gpkg").
     - Use meaningful labels per tile type. 
     - Null or missing typology tiles will be skipped automatically.
