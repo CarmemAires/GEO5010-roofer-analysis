@@ -1,6 +1,6 @@
 # GEO5010 Roofer Analysis 
 
-This repository contains a set of Python scripts to process LiDAR ```LAZ``` tiles into 3D CityJSON models using **Roofer** (https://github.com/3DBAG/roofer), analyze their quality, and optionally optimize Roofer parameters for improved reconstruction. These scripts were created in the framework of GEO5010 - Research Orientation of the MSc Geomatics program of TU Delft with the objective of testing the Roofer algorithm within global south contexts, such as São Paulo.
+This repository contains a set of Python scripts to process LiDAR ```LAZ``` tiles into 3D CityJSON models using **Roofer** (https://github.com/3DBAG/roofer), analyze their quality, and optionally optimize Roofer parameters for improved reconstruction. These scripts were developed as part of GEO5010 – Research Orientation in the MSc Geomatics program at TU Delft, with the aim of testing the Roofer algorithm in Global South contexts, such as São Paulo.
 
 ## Overview of Scripts
 
