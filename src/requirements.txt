@@ -1,0 +1,10 @@
+numpy
+pandas
+geopandas
+shapely
+matplotlib
+seaborn
+optuna
+requests
+urllib3
+tqdm
